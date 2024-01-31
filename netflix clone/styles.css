@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #000000; /* Set the background color to black */
+    color: #ffffff; /* Set text color to white */
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Hero Banner Styles */
+#hero-banner {
+    position: relative;
+}
+
+#hero-banner img {
+    width: 100%;
+}
+
+.watch-now-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e50914; /* Set button background color to red */
+    color: #ffffff; /* Set button text color to white */
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Featured Categories Section Styles */
+#featured-categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.category {
+    text-align: center;
+}
+
+/* Recently Added Section Styles */
+#recently-added {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.recent-item {
+    text-align: center;
+}
+
+/* Features Section Styles */
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.feature {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+}
+
+/* Type Board Section Styles */
+#type-board {
+    background-color: #e50914; /* Set background color to red */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.type-board-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff; /* Set text color to white */
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    background-color: #ffffff; /* Set button background color to white */
+    color: #e50914; /* Set button text color to red */
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+footer nav ul li {
+    margin-right: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: #ffffff; /* Set link color to white */
+    text-decoration: none;
+}
+
+.small-text {
+    margin-top: 20px;
+    text-align: center;
+}
